@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Therapy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body class="font-[Poppins] bg-gradient-to-r from-[#fbc2eb] to-[#a6c1ee] ">
+
+    <header class="bg-transparent backdrop-blur-[20px]">
+        <nav class="flex justify-between items-center w-[92%]  mx-auto">
+            <div>
+                <img class="w-16 cursor-pointer" src="https://cdn-icons-png.flaticon.com/512/5968/5968204.png" alt="...">
+            </div>
+            <div
+                class="nav-links duration-500 md:static absolute bg-transparent md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="hover:text-blue-500" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-blue-500" href="#books">Books</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-blue-500" href="#blogs">Blogs</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- <div >
+                 <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Sign in</button> 
+                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div> -->
+    </header>
+
+    <section class="text-gray-700 body-font mt-[40px]">
+        <!-- <h2 class="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px] text-center"> About Us </h2> -->
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">A Book a Day Keeps Stress at Bay
+            </h1>
+            <p class="mb-8 leading-relaxed">Reading therapy is a tranquil haven in the midst of life's chaos, offers a serene and introspective approach to alleviating stress. Whether through the wisdom of philosophical texts, the embrace of fiction's captivating narratives, or the solace of self-help guides, reading therapy invites the mind to detach from stressors and enter a realm of mindfulness. The act of reading promotes focused attention, allowing worries to take a back seat while the imagination takes the wheel. </p>
+            <!-- <div class="flex justify-center">
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+              <button class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Button</button>
+            </div> -->
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="hero" src="./images/books.jpg">
+          </div>
+        </div>
+    </section>
+
+
+    <div id="books" class="pb-[80px]">
+        <h2 class="text-black-800 text-center text-5xl py-[70px]">Books</h2>
+        <div class="flex justify-around flex-wrap gap-[80px] gap-y-[80px]">
+            <div class="p-[20px]">
+                <img src="./images/Atomic-Habits.jpg" alt="" class="w-[280px] h-[380px] border rounded-[10px] my-[20px]">
+                <div class="flex justify-between">
+                    <a href="https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834"><button class="bg-purple-500 text-white text-[17px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-purple-300 hover:text-purple-800 hover:bg-white">Buy</button></a>
+                    <a href="./images/Atomic Habits.pdf" download><button class="bg-blue-500 text-white text-[17px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-blue-300 hover:text-blue-800 hover:bg-white">Download</button></a>
+                </div>
+            </div>
+
+            <div class="p-[20px]">
+                <img src="./images/Atomic-Habits.jpg" alt="" class="w-[280px] h-[380px] border rounded-[10px] my-[20px]">
+                <div class="flex justify-between">
+                    <a href="https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834"><button class="bg-purple-500 text-white text-[17px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-purple-300 hover:text-purple-800 hover:bg-white">Buy</button></a>
+                    <a href="./images/Atomic Habits.pdf" download><button class="bg-blue-500 text-white text-[17px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-blue-300 hover:text-blue-800 hover:bg-white">Download</button></a>
+                </div>
+            </div>
+
+            <div class="p-[20px]">
+                <img src="./images/Atomic-Habits.jpg" alt="" class="w-[280px] h-[380px] border rounded-[10px] my-[20px]">
+                <div class="flex justify-between">
+                    <a href="https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834"><button class="bg-purple-500 text-white text-[17px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-purple-300 hover:text-purple-800 hover:bg-white">Buy</button></a>
+                    <a href="./images/Atomic Habits.pdf" download><button class="bg-blue-500 text-white text-[17px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-blue-300 hover:text-blue-800 hover:bg-white">Download</button></a>
+                </div>
+            </div>
+
+            <div class="p-[20px]">
+                <img src="./images/Atomic-Habits.jpg" alt="" class="w-[280px] h-[380px] border rounded-[10px] my-[20px]">
+                <div class="flex justify-between">
+                    <a href="https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834"><button class="bg-purple-500 text-white text-[17px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-purple-300 hover:text-purple-800 hover:bg-white">Buy</button></a>
+                    <a href="./images/Atomic Habits.pdf" download><button class="bg-blue-500 text-white text-[17px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-blue-300 hover:text-blue-800 hover:bg-white">Download</button></a>
+                </div>
+            </div>
+
+            <div class="p-[20px]">
+                <img src="./images/Atomic-Habits.jpg" alt="" class="w-[280px] h-[380px] border rounded-[10px] my-[20px]">
+                <div class="flex justify-between">
+                    <a href="https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834"><button class="bg-purple-500 text-white text-[17px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-purple-300 hover:text-purple-800 hover:bg-white">Buy</button></a>
+                    <a href="./images/Atomic Habits.pdf" download><button class="bg-blue-500 text-white text-[17px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-blue-300 hover:text-blue-800 hover:bg-white">Download</button></a>
+                </div>
+            </div>
+
+            <div class="p-[20px]">
+                <img src="./images/Atomic-Habits.jpg" alt="" class="w-[280px] h-[380px] border rounded-[10px] my-[20px]">
+                <div class="flex justify-between">
+                    <a href="https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834"><button class="bg-purple-500 text-white text-[17px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-purple-300 hover:text-purple-800 hover:bg-white">Buy</button></a>
+                    <a href="./images/Atomic Habits.pdf" download><button class="bg-blue-500 text-white text-[17px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-blue-300 hover:text-blue-800 hover:bg-white">Download</button></a>
+                </div>
+            </div>
+
+            <div class="p-[20px]">
+                <img src="./images/Atomic-Habits.jpg" alt="" class="w-[280px] h-[380px] border rounded-[10px] my-[20px]">
+                <div class="flex justify-between">
+                    <a href="https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834"><button class="bg-purple-500 text-white text-[17px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-purple-300 hover:text-purple-800 hover:bg-white">Buy</button></a>
+                    <a href="./images/Atomic Habits.pdf" download><button class="bg-blue-500 text-white text-[17px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-blue-300 hover:text-blue-800 hover:bg-white">Download</button></a>
+                </div>
+            </div>
+
+            <div class="p-[20px]">
+                <img src="./images/Atomic-Habits.jpg" alt="" class="w-[280px] h-[380px] border rounded-[10px] my-[20px]">
+                <div class="flex justify-between">
+                    <a href="https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834"><button class="bg-purple-500 text-white text-[17px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-purple-300 hover:text-purple-800 hover:bg-white">Buy</button></a>
+                    <a href="./images/Atomic Habits.pdf" download><button class="bg-blue-500 text-white text-[17px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-blue-300 hover:text-blue-800 hover:bg-white">Download</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="blogs" class="py-[60px]">
+        <h2 class="text-black-800 text-center text-5xl py-[70px]">Blogs</h2>
+        <div class="flex justify-around flex-wrap gap-x-[80px] gap-y-[80px] py-[30px]">
+            <div class="w-[400px] p-[20px]">
+                <img src="./images/blog1.png" alt="" class="w-[400px] h-[270px] object-cover">
+                <p class="text-xl font-bold py-[5px] text-center">The one-two punch that can knock out stress.</p>
+                <a href="https://www.headspace.com/articles/the-one-two-punch-that-can-knock-out-stress" class="flex justify-center"><button class="bg-red-500 text-white text-[12px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-red-300 hover:text-red-800 hover:bg-white text-center">Read article</button></a>
+            </div>
+
+            <div class="w-[400px] p-[20px]">
+                <img src="./images/blog1.png" alt="" class="w-[400px] h-[270px] object-cover">
+                <p class="text-xl font-bold py-[5px] text-center">The one-two punch that can knock out stress.</p>
+                <a href="https://www.headspace.com/articles/the-one-two-punch-that-can-knock-out-stress" class="flex justify-center"><button class="bg-red-500 text-white text-[12px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-red-300 hover:text-red-800 hover:bg-white text-center">Read article</button></a>
+            </div>
+
+            <div class="w-[400px] p-[20px]">
+                <img src="./images/blog1.png" alt="" class="w-[400px] h-[270px] object-cover">
+                <p class="text-xl font-bold py-[5px] text-center">The one-two punch that can knock out stress.</p>
+                <a href="https://www.headspace.com/articles/the-one-two-punch-that-can-knock-out-stress" class="flex justify-center"><button class="bg-red-500 text-white text-[12px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-red-300 hover:text-red-800 hover:bg-white text-center">Read article</button></a>
+            </div>
+
+            <div class="w-[400px] p-[20px]">
+                <img src="./images/blog1.png" alt="" class="w-[400px] h-[270px] object-cover">
+                <p class="text-xl font-bold py-[5px] text-center">The one-two punch that can knock out stress.</p>
+                <a href="https://www.headspace.com/articles/the-one-two-punch-that-can-knock-out-stress" class="flex justify-center"><button class="bg-red-500 text-white text-[12px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-red-300 hover:text-red-800 hover:bg-white text-center">Read article</button></a>
+            </div>
+
+            <div class="w-[400px] p-[20px]">
+                <img src="./images/blog1.png" alt="" class="w-[400px] h-[270px] object-cover">
+                <p class="text-xl font-bold py-[5px] text-center">The one-two punch that can knock out stress.</p>
+                <a href="https://www.headspace.com/articles/the-one-two-punch-that-can-knock-out-stress" class="flex justify-center"><button class="bg-red-500 text-white text-[12px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-red-300 hover:text-red-800 hover:bg-white text-center">Read article</button></a>
+            </div>
+
+            <div class="w-[400px] p-[20px]">
+                <img src="./images/blog1.png" alt="" class="w-[400px] h-[270px] object-cover">
+                <p class="text-xl font-bold py-[5px] text-center">The one-two punch that can knock out stress.</p>
+                <a href="https://www.headspace.com/articles/the-one-two-punch-that-can-knock-out-stress" class="flex justify-center"><button class="bg-red-500 text-white text-[12px] px-5 py-2 rounded-[10px] hover:border-2 hover:border-red-300 hover:text-red-800 hover:bg-white text-center">Read article</button></a>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script>
+        const navLinks = document.querySelector('.nav-links')
+        function onToggleMenu(e){
+            e.name = e.name === 'menu' ? 'close' : 'menu'
+            navLinks.classList.toggle('top-[8%]')
+        }
+    </script>
+</body>
+</html>
